@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kaushan+Script&family=Raleway:ital,wght@0,500;1,200&family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: 'Kaushan Script', cursive;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/gym6.jpg');
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.left {
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+
+}
+
+/* to arrange element in middle 3 conditions are needed 
+1.display: block;
+2.margin: 12px auto
+        x axis  y axis
+3.width : 33% */
+.main {
+    /* border: 3px solid yellow; */
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right {
+    /* border: 3px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+} 
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 30px;  /*adding size height, width*/
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: yellow;
+}
+.left img{
+    width: 82px;
+}
+.left text{
+    text-align: end;
+}
+.b{
+    margin: 0px 9px;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.b:hover{
+    background-color: rgb(182, 201, 59);
+}
+
+.container {
+    margin: 33px 41px;
+    width: 42%;
+    /* border: 2px solid yellow; */
+    padding: 75px;
+    border-radius: 28px;
+    font-size: 25px;
+}
+.container h3, .container h4{
+    color: white;
+}
+/* very important */
+.group input{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px;
+    margin: 2px 55px;
+    width: 362px;
+}
+.container button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 362px;
+    margin: 40px 64px;
+}
+button{
+    background: none;
+    border: none;
+}
+.login-page{
+    display: inline-block
+    margin: 33px 41px;
+    width: 42%;
+    padding: 75px;
+    border-radius: 28px;
+    font-size: 25px;
+}
+.ctn-btn{
+    background-color: white;
+    color: black;
+    width: 404px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.ctn-btn button a {
+    background: none;
+    color: black;
+}
+.set{
+
+    color: yellow;
+}
+#set-1{
+    margin-left: 68px;
+}
+.container h3:hover{
+    color: yellow;
+}
+.container h4:hover{
+
+    color: yellow;
+}
+.text:hover{
+    color: yellow;
+}
+.btn:hover{
+    cursor: pointer;
+}

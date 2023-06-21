@@ -1,0 +1,44 @@
+<!-- 21.47 vedio invert function in css used to change color of img black, white option only  -->
+<!DOCTYPE html>
+<html lang="en">
+
+{{>header}}
+
+<link rel="stylesheet" href="css\style.css">
+
+<body>
+    {{>navbar}}
+    <main>
+       <div class="container">
+            <h3>Hurry up! Only few seats left, Join Now</h3>
+            <form action="/register" method="POST">
+                <div class="group">
+                    <div>
+                        <input type="text" placeholder="Enter your name" require name="name">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Enter your Age " require name="age">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Enter your Gender" require name="gender">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Enter your Number" require name="contact">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Enter your Email" require name="email">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Enter your password" require name="password">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Confirm your password" require name="confirmPassword">
+                    </div>
+                </div>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

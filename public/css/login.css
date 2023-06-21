@@ -1,0 +1,26 @@
+*{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0%;
+}
+.login-title{
+    margin-left: 80px;
+}
+.box input {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background: none;
+    border-bottom: 2px solid white;
+    width:100%;
+    color: white;
+}
+.button-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bsnt{
+   width: 70%;
+}
+.bsnt:hover{
+    cursor: pointer;
+}
